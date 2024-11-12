@@ -1,0 +1,40 @@
+/* Background color */
+body {
+    background-color: #d4f1d4;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Center text alignment for the header */
+h1 {
+    text-align: center;
+    color: #2f4f2f;
+}
+
+/* Styling for the gallery */
+.gallery {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 1.5em;
+    color: #2f4f2f;
+}
+
+/* Increase image size in gallery */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted for larger images */
+    gap: 15px; /* Optional: increases space between images */
+    margin-top: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
